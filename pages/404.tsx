@@ -33,7 +33,7 @@ const NotFoundPage = () => {
             colorScheme='blue'
             size='lg'
           >
-            {"Back to safety!"}
+            {"Back to safety! (main page)"}
           </Button>
         </NextLink>
       </VStack>
