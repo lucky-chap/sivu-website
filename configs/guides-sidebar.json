@@ -1,0 +1,26 @@
+{
+  "routes": [
+    {
+      "title": "Tutorials",
+      "heading": true,
+      "routes": [
+        {
+          "title": "Sample",
+          "path": "/guides/sample"
+        },
+        {
+          "title": "Title",
+          "path": "/link"
+        },
+        {
+          "title": "Title",
+          "path": "/link"
+        },
+        {
+          "title": "Title",
+          "path": "/link"
+        }
+      ]
+    }
+  ]
+}

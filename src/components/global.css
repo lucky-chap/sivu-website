@@ -1,0 +1,83 @@
+.css-1v0lc0l {
+    -webkit-background-clip: text;
+    background-image: linear-gradient(0deg,#4fa8ff,#17799f);
+    -webkit-text-fill-color: transparent;
+}
+
+/* TODO - REMOVE WHEN LIVE ALGOLIA */
+
+.disabled {
+  cursor: not-allowed;
+}
+
+.chakra-stack.css-1qwdsol {
+  display: none;
+}
+
+/* TODO - REMOVE WHEN LIVE ALGOLIA */
+
+.css-uqd5m9 {
+    -webkit-background-clip: text;
+    background-image: linear-gradient(0deg,#4fa8ff,#17799f);
+    -webkit-text-fill-color: transparent;
+}
+
+.css-1q304az {
+    margin-bottom: 0!important;
+}
+
+a.flex.widget-embed.items-center.font-medium.border.select-none.group.px-3.py-2.rounded-lg.bg-gray-900.border-black.hover\:bg-gray-800.text-white {
+    border: none!important;
+}
+
+  body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #F1F1F1;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #117496;    /* color of the scroll thumb */
+    border-radius: 5px;       /* roundness of the scroll thumb */
+    border: 3px solid #F1F1F1;  /* creates padding around scroll thumb */
+  }
+
+/* light mode sidebar */
+
+.sidebar-content-light::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  .sidebar-content-light::-webkit-scrollbar-track {
+    background: #F1F1F1;        /* color of the tracking area */
+    border-radius: 3px;
+  }
+  
+  .sidebar-content-light::-webkit-scrollbar-thumb {
+    background-color: #117496;    /* color of the scroll thumb */
+    border-radius: 5px;       /* roundness of the scroll thumb */
+    border: 3px solid #F1F1F1;  /* creates padding around scroll thumb */
+  }
+
+  /* light mode sidebar */
+
+.sidebar-content-dark::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+.sidebar-content-dark::-webkit-scrollbar-track {
+  background: #36435c;        /* color of the tracking area */
+  border-radius: 3px;
+}
+
+.sidebar-content-dark::-webkit-scrollbar-thumb {
+  background-color: #117496;    /* color of the scroll thumb */
+  border-radius: 5px;       /* roundness of the scroll thumb */
+  border: 3px solid #36435c;  /* creates padding around scroll thumb */
+}
+
+.whiteicon {
+  color: white;
+}

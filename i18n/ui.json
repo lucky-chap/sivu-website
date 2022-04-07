@@ -1,0 +1,106 @@
+{
+  "homepage": {
+    "title": {
+      "main": "Create and build attractive",
+      "highlighted": "websites"
+    },
+    "message": "Sivu is a bank of tutorials made by open source developers, to help beginners get started in the world of website development.",
+    "get-started": "Get started",
+    "supported-and-backed-by": "Sponsors",
+    "your-company": "Your company",
+    "less-code-more-speed": "Less code. More speed",
+    "feature-section": {
+      "title": "A simple and straightforward experience",
+      "description": "Made for beginners, and written by beginners. We understand you.",
+      "accessible": {
+        "title": "Accessible",
+        "description": "Sivu is easily accesible for anyone. We follow the WCAG to ensure the highest level of accesibility for our users."
+      },
+      "themeable": {
+        "title": "Customisable",
+        "description": "We show you how to create a site that's different and custom to you."
+      },
+      "composable": {
+        "title": "Composable",
+        "description": "Designed with composition in mind. Compose new components with ease."
+      },
+      "light-and-dark-ui": {
+        "title": "Light and Dark UI",
+        "description": "Optimized for multiple color modes. Use light or dark, your choice."
+      },
+      "developer-experience": {
+        "title": "Easy and Simple",
+        "description": "Sivu is made by beginners, for beginners. We try to keep the language simple and understandable to help you better understand."
+      },
+      "active-community": {
+        "title": "Active Community",
+        "description": "We're a team of active maintainers ready to help you whenever you need."
+      }
+    },
+    "built-with-chakra-section": {
+      "title": "We cover large frameworks too!",
+      "description": "Some of the large website frameworks we cover!"
+    },
+    "growing-section": {
+      "title": "We love our contributors",
+      "description": "We're dedicated to improving Sivu. Thank you to all the contributors for helping us across this journey.",
+      "downloads-per-month": "Downloads per month",
+      "chakra-heroes": "Sivu contributors 🦸"
+    },
+    "loved-by-product-people-section": {
+      "title": "Loved by product people like you"
+    },
+    "seo": {
+      "title": "Sivu - A bank of tutorials made by open source developers, to help beginners get started in the world of website development.",
+      "description": "A bank of tutorials made by open source developers, to help beginners get started in the world of website development."
+    }
+  },
+  "notfound": {
+    "title": "404: Not found",
+    "description": "Page not found",
+    "heading": "404 | Page Not Found",
+    "message": "You just hit a route that doesn't exist... the sadness.😢",
+    "back-to-home": "Back to Home"
+  },
+  "resources": {
+    "searchFilter": {
+      "helperText": "Filter by the tutorial title.",
+      "label": "Search",
+      "placeholder": "website"
+    }
+  },
+  "component": {
+    "algolia-search": {
+      "search-the-docs": "Search the tutorials (comming soon!)",
+      "press": "Press",
+      "and": "and",
+      "to-search": "to-search"
+    },
+    "edit-page-button": {
+      "edit-this-page": "Edit this page"
+    },
+    "page-container": {
+      "skip-to-content": "Skip to Content"
+    },
+    "props-table": {
+      "required": "required",
+      "description": "Description",
+      "type": "Type",
+      "default": "Default",
+      "for": "for",
+      "are-not-implemented-in-the-default-theme": "are not implemented in the default theme.",
+      "you-can": "You can",
+      "extend-the-theme": "extend the theme",
+      "to-implement-them": "to implement them."
+    },
+    "sponsor-button": {
+      "sponsor": "Support"
+    },
+    "table-of-content": {
+      "on-this-page": "Contents"
+    },
+    "vercel-callout": {
+      "deployed-by": "Deployed by"
+    }
+  }
+}
