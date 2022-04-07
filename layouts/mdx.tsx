@@ -1,9 +1,11 @@
+/* eslint-disable import/no-duplicates */
 import { ReactNode } from 'react'
 import PageContainer from 'components/page-container'
 import Pagination from 'components/pagination'
 import Sidebar from 'components/sidebar/sidebar'
-import docsSidebar from 'configs/docs-sidebar.json'
+import componentsSidebar from 'configs/guides-sidebar.json'
 import guidesSidebar from 'configs/guides-sidebar.json'
+import styledSystemSidebar from 'configs/guides-sidebar.json'
 import { findRouteByPath, removeFromLast } from 'utils/find-route-by-path'
 import { getRouteContext } from 'utils/get-route-context'
 
@@ -13,7 +15,8 @@ export function getRoutes(slug: string) {
 
   const configMap = {
     '/guides': guidesSidebar,
-    '/docs': docsSidebar,
+    '/docs': styledSystemSidebar,
+    '/docs/components': componentsSidebar,
   }
 
   const [, sidebar] =
