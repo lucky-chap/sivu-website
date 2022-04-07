@@ -1,24 +1,28 @@
 {
   "routes": [
     {
-      "title": "Tutorials",
+      "title": "Featured",
       "heading": true,
       "routes": [
         {
-          "title": "Sample",
+          "title": "Title",
           "path": "/guides/sample"
         },
         {
-          "title": "Title",
-          "path": "/link"
-        },
-        {
-          "title": "Title",
-          "path": "/link"
-        },
-        {
-          "title": "Title",
-          "path": "/link"
+          "title": "Tutorials",
+          "open": true,
+          "routes": [
+            {
+              "title": "Sample Page",
+              "new": true,
+              "path": "/guides/sample"
+            },
+            {
+              "title": "Title",
+              "new": true,
+              "path": "/guides/first-steps"
+            }
+          ]
         }
       ]
     }
