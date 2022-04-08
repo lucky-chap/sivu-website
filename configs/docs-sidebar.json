@@ -1,31 +1,31 @@
 {
-    "routes": [
-      {
-        "title": "Featured",
-        "heading": true,
-        "routes": [
-          {
-            "title": "Title",
-            "path": "/guides/sample"
-          },
-          {
-            "title": "Tutorials",
-            "open": true,
-            "routes": [
-              {
-                "title": "Sample Page",
-                "new": true,
-                "path": "/guides/sample"
-              },
-              {
-                "title": "Title",
-                "new": true,
-                "path": "/guides/first-steps"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+  "routes": [
+    {
+      "title": "Featured",
+      "heading": true,
+      "routes": [
+        {
+          "title": "Title",
+          "path": "/guides/first-steps"
+        },
+        {
+          "title": "Tutorials",
+          "path": "/docs/styled-system/features",
+          "open": true,
+          "routes": [
+            {
+              "title": "Title",
+              "new": true,
+              "path": "/guides/first-steps"
+            },
+            {
+              "title": "Title",
+              "new": true,
+              "path": "/guides/first-steps"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
