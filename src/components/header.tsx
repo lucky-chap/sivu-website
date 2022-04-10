@@ -75,7 +75,7 @@ function HeaderContent() {
                 _hover={{ color: 'gray.600' }}
               />
             </Link>
-            <Link aria-label='Go to Chakra UI Discord page' href='/discord'>
+            <Link aria-label='Go to Sivu tutorials page' href='/docs/getting-started'>
               <Icon
                 as={FaBook}
                 display='block'

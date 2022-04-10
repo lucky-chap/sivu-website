@@ -31,8 +31,6 @@ import SEO from 'components/seo'
 import users from 'sponsors'
 import { t } from 'utils/i18n'
 
-const openCollectiveLink = 'https://opencollective.com/chakra-ui'
-
 const Feature = ({ title, icon, children, ...props }) => {
   return (
     <Box
@@ -130,7 +128,7 @@ const HomePage = () => {
                   h='4rem'
                   px='40px'
                   fontSize='1.2rem'
-                  href='https://github.com/chakra-ui/chakra-ui/'
+                  href='https://github.com/sivu-tutorials/website/'
                   target='__blank'
                   leftIcon={<DiGithubBadge size='1.5em' />}
                 >
