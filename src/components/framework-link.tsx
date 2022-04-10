@@ -7,7 +7,6 @@ import {
   SimpleGrid,
   Text,
 } from '@chakra-ui/react'
-import Link from 'next/link'
 import React from 'react'
 import {
   VercelSVG,
@@ -18,9 +17,8 @@ import {
 } from './framework-svg'
 
 const FrameworkLink = (props) => {
-  const { accentColor, href, children, name } = props
+  const { accentColor, children, name } = props
   return (
-    <Link passHref href={href}>
       <ChakraLink textDecoration='none' _hover={{ textDecoration: 'none' }}>
         <Box boxShadow='md' bg='white' borderRadius='xl' pt='4'>
           {children}
@@ -38,7 +36,6 @@ const FrameworkLink = (props) => {
           </Center>
         </Box>
       </ChakraLink>
-    </Link>
   )
 }
 
@@ -46,7 +43,6 @@ export const FrameworkLinks = () => {
   return (
     <SimpleGrid mt='12' minChildWidth='160px' spacing='40px' fontSize='6xl'>
       <FrameworkLink
-        href='/guides/getting-started/cra-guide'
         accentColor='black'
         name='Vercel'
       >
@@ -54,7 +50,6 @@ export const FrameworkLinks = () => {
       </FrameworkLink>
 
       <FrameworkLink
-        href='/guides/getting-started/blitzjs-guide'
         accentColor='#127597'
         name='Netlify'
       >
@@ -62,7 +57,6 @@ export const FrameworkLinks = () => {
       </FrameworkLink>
 
       <FrameworkLink
-        href='/guides/getting-started/remix-guide'
         accentColor='#121212'
         name='Koyeb'
       >
@@ -70,7 +64,6 @@ export const FrameworkLinks = () => {
       </FrameworkLink>
 
       <FrameworkLink
-        href='/guides/getting-started/blitzjs-guide'
         accentColor='#0F5095'
         name='Azure'
       >
@@ -79,7 +72,6 @@ export const FrameworkLinks = () => {
 
 
         <FrameworkLink
-        href='/guides/getting-started/blitzjs-guide'
         accentColor='#0259F3'
         name='Cleavr'
       >

@@ -18,7 +18,7 @@ export function VercelCallout() {
       py='2'
       rounded='lg'
     >
-      {"Hosted on"}{' '}
+      {"Hosted and sponsored by"}{' '}
       <span role='img' aria-label='Vercel logo'>
         ▲
       </span>{' '}

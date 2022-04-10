@@ -200,7 +200,7 @@ const HomePage = () => {
                   as='a'
                   w='40'
                   h='16'
-                  href={`${openCollectiveLink}/contribute`}
+                  href="mailto:naypat20051@gmail.com"
                   rel='noopener'
                   target='_blank'
                   border='1px dashed'

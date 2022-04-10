@@ -60,7 +60,7 @@ export const ChakraProAd = () => (
           fontSize='lg'
           fontWeight='semibold'
           transition='all 0.2s'
-          _hover={{ bg: 'whiteAlpha.400' }}
+          _hover={{ bg: ' gray.200' }}
         >
           <Text>{"Tutorials"}</Text>
           <Box as={FiArrowRight} display='inline-block' ml='2' />
