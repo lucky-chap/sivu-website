@@ -26,6 +26,8 @@ const App = ({ Component, pageProps }) => {
       </ChakraProvider>
       <FontFace />
       <Script src="https://status.sivu.tk/widget/script.js" />
+      <Script src='/cannyuser.js' />
+      <Script src='/changelog.js' />
     </>
   )
 }

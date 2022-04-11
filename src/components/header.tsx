@@ -17,7 +17,7 @@ import {
 import { useViewportScroll } from 'framer-motion'
 import NextLink from 'next/link'
 import React from 'react'
-import { FaMoon, FaSun, FaBook } from 'react-icons/fa'
+import { FaMoon, FaSun, FaBook, FaNewspaper } from 'react-icons/fa'
 import Search from './algolia-search'
 import Logo from './logo'
 import { MobileNavButton, MobileNavContent } from './mobile-nav'
@@ -78,6 +78,21 @@ function HeaderContent() {
             <Link aria-label='Go to Sivu tutorials page' href='/docs/getting-started'>
               <Icon
                 as={FaBook}
+                display='block'
+                transition='color 0.2s'
+                w='5'
+                h='5'
+                _hover={{ color: 'gray.600' }}
+              />
+            </Link>
+            <Link
+              isExternal
+              aria-label='Go to Chakra UI GitHub page'
+              data-canny-changelog
+            >
+              <Icon
+                as={FaNewspaper}
+                data-canny-changelog
                 display='block'
                 transition='color 0.2s'
                 w='5'
