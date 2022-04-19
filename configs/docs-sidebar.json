@@ -5,7 +5,7 @@
       "heading": true,
       "routes": [
         {
-          "title": "Title",
+          "title": "Documentation Site",
           "path": "/guides/first-steps"
         },
         {
@@ -14,12 +14,7 @@
           "open": true,
           "routes": [
             {
-              "title": "Title",
-              "new": true,
-              "path": "/guides/first-steps"
-            },
-            {
-              "title": "Title",
+              "title": "Documentation Site",
               "new": true,
               "path": "/guides/first-steps"
             }
