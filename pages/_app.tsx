@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-script-component-in-head */
 import { ChakraProvider } from '@chakra-ui/react'
 import { DefaultSeo } from 'next-seo'
 import Head from 'next/head'
@@ -28,6 +29,8 @@ const App = ({ Component, pageProps }) => {
       <Script src="https://status.sivu.tk/widget/script.js" />
       <Script src='/cannyuser.js' />
       <Script src='/changelog.js' />
+      <Script src="https://unpkg.com/feedbackfin@^1" defer />
+      <Script src="/fin.js" /> 
     </>
   )
 }

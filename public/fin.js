@@ -1,0 +1,2 @@
+window.feedbackfin = { config: {}, ...window.feedbackfin };
+window.feedbackfin.config.url = "https://discord.com/api/webhooks/968939496240463912/PcqOqDt163tJVdpVwyQZJYWe8spXho1DeRvTFJfx1Q-UjLSYzOXledjmnkkkdn-8VLUQ";
