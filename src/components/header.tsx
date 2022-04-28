@@ -100,21 +100,6 @@ function HeaderContent() {
                 _hover={{ color: 'gray.600' }}
               />
             </Link>
-            <Link
-              isExternal
-              aria-label='Feedback Widget'
-              data-feedbackfin-button
-            >
-              <Icon
-                as={FaThumbsUp}
-                data-feedbackfin-button
-                display='block'
-                transition='color 0.2s'
-                w='5'
-                h='5'
-                _hover={{ color: 'gray.600' }}
-              />
-            </Link>
           </HStack>
           <IconButton
             size='md'
