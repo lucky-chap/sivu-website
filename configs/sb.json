@@ -6,7 +6,7 @@
       "routes": [
         {
           "title": "Title",
-          "path": "/guides/sample"
+          "path": "/guides/docusaurus"
         },
         {
           "title": "Tutorials",
@@ -15,7 +15,7 @@
             {
               "title": "Sample Page",
               "new": true,
-              "path": "/guides/sample"
+              "path": "/guides/docusaurus"
             },
             {
               "title": "Title",

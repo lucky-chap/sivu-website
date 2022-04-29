@@ -101,7 +101,7 @@ import {
             <Stack align={'flex-start'}>
               <ListHeader>Product</ListHeader>
               <Stack direction={'row'} align={'center'} spacing={2}>
-                <Link href={'#'}>Tutorials</Link>
+                <Link href={'/docs/getting-started'}>Tutorials</Link>
                 <Tag
                   size={'sm'}
                   bg={useColorModeValue('blue.300', 'blue.800')}
@@ -110,18 +110,25 @@ import {
                   New
                 </Tag>
               </Stack>
-              <Link href={'#'}>Contribute</Link>
+              <Link href={'/faq/contributing'}>Contribute</Link>
             </Stack>
             <Stack align={'flex-start'}>
               <ListHeader>Sivu</ListHeader>
-              <Link href={'/docs/about'}>About Us</Link>
-              <Link href={'#'}>Status</Link>
+              <Stack direction={'row'} align={'center'} spacing={2}>
+                <Link href={'/docs/about'}>About</Link>
+                <Tag
+                  size={'sm'}
+                  bg={useColorModeValue('blue.300', 'blue.800')}
+                  ml={2}
+                  color={'white'}>
+                  New
+                </Tag>
+              </Stack>
+              <Link href={'https://status.sivu.tk/'}>Status</Link>
             </Stack>
             <Stack align={'flex-start'}>
               <ListHeader>Support Us</ListHeader>
-              <Link href={'#'}>GitHub</Link>
-              <Link href={'#'}>Share on Facebook</Link>
-              <Link href={'#'}>Share on Linkedin</Link>
+              <Link href={'https://github.com/sivu-tutorials'}>GitHub</Link>
             </Stack>
           </SimpleGrid>
         </Container>

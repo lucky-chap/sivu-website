@@ -15,7 +15,7 @@
           "routes": [
             {
               "title": "Documentation Site",
-              "path": "/guides/getting-started/cra-guide"
+              "path": "/guides/docusaurus"
             }
           ]
         }
