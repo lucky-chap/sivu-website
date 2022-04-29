@@ -15,7 +15,7 @@ export const AdBanner = () => {
         </Text>
         <chakra.a
           flexShrink={0}
-          href="/contributing"
+          href="/faq/contributing"
           ms='6'
           bg='blackAlpha.300'
           color='whiteAlpha.900'

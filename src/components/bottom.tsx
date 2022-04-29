@@ -114,7 +114,7 @@ import {
             </Stack>
             <Stack align={'flex-start'}>
               <ListHeader>Sivu</ListHeader>
-              <Link href={'#'}>About Us</Link>
+              <Link href={'/docs/about'}>About Us</Link>
               <Link href={'#'}>Status</Link>
             </Stack>
             <Stack align={'flex-start'}>

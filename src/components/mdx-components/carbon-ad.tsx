@@ -84,7 +84,7 @@ const DocsPageChakraProAd = () => (
     p='4'
     bg={useColorModeValue('gray.50', 'rgba(36, 70, 93, 0.32)')}
     as='a'
-    href='https://pro.chakra-ui.com/components?utm_source=chakra-ui.com&utm_medium=docs-ad'
+    href='/docs/getting-started'
     rel='noopener sponsored'
     target='_blank'
     maxW='xl'
