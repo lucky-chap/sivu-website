@@ -28,7 +28,7 @@ import {
   function ResourceCard(props: ResourceCardProps) {
     const { data, ...rest } = props
     const { heading, author, description, url, tags } = data
-    const color = useColorModeValue('teal.600', 'teal.400')
+    const color = useColorModeValue('blue.600', 'blue.400')
   
     return (
       <LinkBox

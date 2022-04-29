@@ -38,7 +38,7 @@ export const ChakraProAd = () => (
           </Box>{' '}
           <Box
             as='span'
-            bgGradient={'linear(to-r, blue.400, teal.400)'}
+            bgGradient={'linear(to-r, blue.400, blue.400)'}
             bgClip='text'
           >
             {"Sivu"}

@@ -141,7 +141,7 @@ function AlgoliaSearch() {
       {isOpen && (
         <Portal>
           <DocSearchModal
-            placeholder='Search the tutorials (comming soon)'
+            placeholder='Search the tutorials (coming soon)'
             initialQuery={initialQuery}
             initialScrollY={window.scrollY}
             onClose={onClose}
