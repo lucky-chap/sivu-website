@@ -1,12 +1,20 @@
 {
     "data": [
       {
-        "heading": "Example",
+        "heading": "NodeJS (NPM)",
         "type": "tutorials",
-        "tags": ["website", "example", "test", "v1.6"],
+        "tags": ["NPM", "node", "Nodejs", "install"],
         "author": "Nayan Patel",
-        "description": "a description on",
-        "url": "link"
+        "description": "How to install NPM NodeJS on your local machine, the easy way!",
+        "url": "/guides/nodejs"
+      }
+      {
+        "heading": "Docusaurus (Documentation site)",
+        "type": "tutorials",
+        "tags": ["Docusaurus", "Documentation", "Docs", "SSG"],
+        "author": "Nayan Patel",
+        "description": "How to effortlessly create a Documentation website!",
+        "url": "/guides/docusaurus"
       }
     ]
   }
