@@ -326,11 +326,6 @@ async function redirect() {
     },
     // DOCS STRUCTURE REWORK REDIRECTS
     {
-      source: '/docs/getting-started',
-      destination: '/guides/first-steps',
-      permanent: true,
-    },
-    {
       source: '/docs/migration',
       destination: '/guides/migration',
       permanent: true,

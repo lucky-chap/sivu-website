@@ -6,7 +6,7 @@
       "routes": [
         {
           "title": "Documentation Site",
-          "path": "/guides/first-steps"
+          "path": "/docs/about"
         },
         {
           "title": "Tutorials",
@@ -16,7 +16,7 @@
             {
               "title": "Documentation Site",
               "new": true,
-              "path": "/guides/first-steps"
+              "path": "/docs/about"
             }
           ]
         }
