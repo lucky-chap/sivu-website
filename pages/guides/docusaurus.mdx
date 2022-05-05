@@ -6,3 +6,63 @@ tags: ['docusaurus', 'documentation', 'easy']
 
 ## Requirements
 - NodeJS `-` Tutorial on how to install NodeJS: [Click here](/guides/nodejs)
+- Visual Studio Code (or alternative) `-` Install [here](https://code.visualstudio.com/download)
+
+### Getting started locally
+1. Open a new terminal in your Visual Studio Code window.
+    - You can do this by selecting the "terminal" tab from the top bar
+2. In the terminal type `npx create-docusaurus@latest my-website classic`
+3. You'll see a new folder appear! Navigate into the folder by doing the command: `cd my-website`
+4. Now, install everything needed to make the site work. You can do this by typing `npm install` into the termminal
+5. You're now ready to start the site locally! use the command `npm run start` you'll see some messages come up to let you know its working. 
+6. Finally, open `http://localhost:3000` in your browser and follow the tutorial on screen made by [Docusaurus](https://docusaurus.io/)
+
+I've made by site locally, it's ready to be published onto the web!
+
+## Preperation
+Most online hosting providors require you to upload your website to a code store. A good one is [GitHub](https://github.com).
+
+1. Sign up for an account at [GitHub](https://github.com)
+2. On your machine, install [GitHub Desktop](https://desktop.github.com/) Follow on screen instructions to setup
+3. When installed, open Github desktop. Select File, New Repository
+4. Give it a name and description, then select create.
+5. In the Local Path, it'll say the location of the new repo you've made. Navigate to that folder in a seperate file manager.
+6. Upload your website files (files inside the "my-website" folder) into that folder
+7. Open github desktop and commit the changes, then click publish.
+8. Congrats! That's all for the preperation.
+
+## Hosting
+There are many hosting providers, if we do not include yours please do add it as a [feature request](/feature-req).
+
+### Netlify
+Netlify is a great free hosting solution for your site!
+
+1. Sign up for Netlify [here](https://app.netlify.com/)
+2. When you're onto the dashboard select "add a new site", then "import an existing project"
+3. Choose "GitHub" from the list
+4. Choose the repository that you just created
+5. Select "Deploy site"
+6. Your site is now building! Contrats!
+
+### Vercel
+Vercel is also a great free hosting option.
+
+1. Sign up to [Vercel](https://vercel.com/)
+2. When you're in, select "new project"
+3. On the left, it'll say import git repository. Find yours, and select Import.
+4. Select deploy.
+5. Wait for the site to build, and congrats! Youre done.
+
+### Koyeb
+Koyeb is a great serverless platform to host your site.
+
+1. Sign up to [Koyeb](https://koyeb.com)
+2. When on the desktop, select create app
+3. Give the app a name, then select next
+4. Select GitHub
+5. Find your repository
+6. Type "main" for the branch
+7. Under "Application Configuration", set the "Run command" to `npm run serve -- -h 0.0.0.0 -p 8080`
+8. Give it a name
+9. Select deploy
+10. Wait for it to build and congrats! You're done.
