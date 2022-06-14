@@ -13,7 +13,7 @@ export const Logo = () => {
     <ChakraNextImage
       height={54}
       width={250}
-      src= {useColorModeValue('https://user-images.githubusercontent.com/33565767/173359539-993b173a-2c50-47db-aa07-36b290ca9af8.svg', 'https://user-images.githubusercontent.com/33565767/173359729-18526cd9-8341-4309-8a3a-2f6a1737c270.svg')}
+      src= {useColorModeValue('https://user-images.githubusercontent.com/33565767/173574056-ef2b1328-a679-426d-a721-4c57f83f57b9.png', 'https://user-images.githubusercontent.com/33565767/173359729-18526cd9-8341-4309-8a3a-2f6a1737c270.svg')}
       alt='Sivu logo'
     />
     </NextLink>
