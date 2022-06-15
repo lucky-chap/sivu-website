@@ -1,24 +1,27 @@
 // sivu logo component
 
-import { chakra, useColorModeValue } from '@chakra-ui/react';
-import NextLink from 'next/link';
-import React from 'react';
-import ChakraNextImage from 'components/chakra-next-image';
+import { chakra, useColorModeValue } from '@chakra-ui/react'
+import NextLink from 'next/link'
+import React from 'react'
+import ChakraNextImage from 'components/chakra-next-image'
 
 export const Logo = () => {
-  const fill = useColorModeValue('#2D3748', '#fff');
+  const fill = useColorModeValue('#2D3748', '#fff')
 
   return (
-    <NextLink href="#" passHref>
-    <ChakraNextImage
-      height={54}
-      width={250}
-      src= {useColorModeValue('https://user-images.githubusercontent.com/33565767/173574056-ef2b1328-a679-426d-a721-4c57f83f57b9.png', 'https://user-images.githubusercontent.com/33565767/173359729-18526cd9-8341-4309-8a3a-2f6a1737c270.svg')}
-      alt='Sivu logo'
-    />
+    <NextLink href='#' passHref>
+      <ChakraNextImage
+        height={54}
+        width={250}
+        src={useColorModeValue(
+          'https://user-images.githubusercontent.com/33565767/173816123-99707c2a-0bf0-46a0-a1c0-c4c4780beeb4.png',
+          'https://user-images.githubusercontent.com/33565767/173816379-d0656a5b-5f9b-48c2-b96b-546668bae6bb.png'
+        )}
+        alt='Sivu logo'
+      />
     </NextLink>
-  );
-};
+  )
+}
 
 export const LogoIcon = () => {
   return (
@@ -89,7 +92,7 @@ export const LogoIcon = () => {
         </g>
       </g>
     </chakra.svg>
-  );
-};
+  )
+}
 
-export default Logo;
+export default Logo
