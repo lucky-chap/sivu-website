@@ -27,7 +27,7 @@ const Logo = () => {
         width={250}
         src={useColorModeValue(
           'https://user-images.githubusercontent.com/33565767/173816123-99707c2a-0bf0-46a0-a1c0-c4c4780beeb4.png',
-          'https://user-images.githubusercontent.com/33565767/173816379-d0656a5b-5f9b-48c2-b96b-546668bae6bb.png'
+          'https://user-images.githubusercontent.com/33565767/173816123-99707c2a-0bf0-46a0-a1c0-c4c4780beeb4.png'
         )}
         alt='Sivu logo'
       />
