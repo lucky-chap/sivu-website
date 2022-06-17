@@ -6,7 +6,7 @@ module.exports = withContentlayer()({
     modern: true,
   },
   images: {
-    domains: ['img.youtube.com', 'avatars.githubusercontent.com', 'api.producthunt.com', 'images.unsplash.com'],
+    domains: ['img.youtube.com', 'avatars.githubusercontent.com', 'api.producthunt.com', 'images.unsplash.com', 'user-images.githubusercontent.com'],
     dangerouslyAllowSVG: true,
   },
   productionBrowserSourceMaps: true,
