@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://sivu.tk">
-    <img src="https://raw.githubusercontent.com/Sivu-Tutorials/assets/main/sivu/sivu-icon.png" height="96">
+    <img src="https://raw.githubusercontent.com/Sivu-Tutorials/assets/main/sivu/Logo.png" height="96">
     <h3 align="center">Sivu</h3>
   </a>
 </p>
