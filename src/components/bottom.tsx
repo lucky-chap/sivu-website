@@ -27,7 +27,7 @@ const Logo = () => {
         width={250}
         src={useColorModeValue(
           'https://user-images.githubusercontent.com/33565767/173816123-99707c2a-0bf0-46a0-a1c0-c4c4780beeb4.png',
-          'https://user-images.githubusercontent.com/33565767/173816123-99707c2a-0bf0-46a0-a1c0-c4c4780beeb4.png'
+          'https://user-images.githubusercontent.com/33565767/173816123-99707c2a-0bf0-46a0-a1c0-c4c4780beeb4.png',
         )}
         alt='Sivu logo'
       />
@@ -82,8 +82,11 @@ export default function LargeWithLogoCentered() {
             <Link href={'https://status.sivu.tk/'}>Status</Link>
           </Stack>
           <Stack align={'flex-start'}>
-            <ListHeader>Support Us</ListHeader>
+            <ListHeader>Follow for Updates</ListHeader>
             <Link href={'https://github.com/sivu-tutorials'}>GitHub</Link>
+            <Link href={'https://github.com/sivu-tutorials'}>Twitter</Link>
+            <Link href={'https://github.com/sivu-tutorials'}>Instagram</Link>
+            <Link href={'https://github.com/sivu-tutorials'}>LinkedIn</Link>
           </Stack>
         </SimpleGrid>
       </Container>
