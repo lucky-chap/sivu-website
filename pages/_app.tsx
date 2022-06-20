@@ -17,7 +17,7 @@ const App = ({ Component, pageProps }) => {
       <Head>
         <meta content='IE=edge' httpEquiv='X-UA-Compatible' />
         <meta content='width=device-width, initial-scale=1' name='viewport' />
-        <link rel='icon' type='image/png' sizes='96x96' href='https://user-images.githubusercontent.com/33565767/173816123-99707c2a-0bf0-46a0-a1c0-c4c4780beeb4.png' />
+        <link rel='icon' type='image/png' sizes='96x96' href='./Logo2.png' />
         <link rel='preconnect' href='https://fonts.googleapis.com' />
         <meta name='theme-color' content='#319795' />
       </Head>
