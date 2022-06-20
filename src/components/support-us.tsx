@@ -11,7 +11,7 @@ const SponsorButton = (props: BoxProps) => (
     alignItems='center'
     as='a'
     aria-label='Sponsor Chakra UI on Open Collective'
-    href="https://test"
+    href="mailto:naypat20051@gmail.com"
     target='_blank'
     rel='noopener noreferrer'
     bg='gray.50'
