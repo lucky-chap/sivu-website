@@ -4,6 +4,7 @@ import { Icon, Link, Stack, Text, VStack } from '@chakra-ui/react'
 import React from 'react'
 import { IoLogoGithub } from 'react-icons/io'
 import { MdEmail } from 'react-icons/md'
+import { FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa'
 import { VercelCallout } from './vercel-callout'
 
 type FooterLinkProps = {
@@ -22,21 +23,34 @@ const links = [
   {
     icon: IoLogoGithub,
     label: 'GitHub',
-    href: 'https://github.com/',
+    href: 'https://github.com/Sivu-Tutorials',
   },
   {
     icon: MdEmail,
     label: 'Email',
     href: 'mailto:naypat20051@gmail.com',
   },
+  {
+    icon: FaTwitter,
+    label: 'Twitter',
+    href: 'https://twitter.com/sivuhq',
+  },
+  {
+    icon: FaLinkedin,
+    label: 'LinkedIn',
+    href: 'https://www.linkedin.com/company/sivuhq/',
+  },
+  {
+    icon: FaInstagram,
+    label: 'Instagram',
+    href: 'https://instagram.com/sivuhq',
+  },
 ]
 
 export const Footer = () => (
   <VStack as='footer' spacing={4} mt={12} textAlign='center'>
     <Text fontSize='sm'>
-      <span>
-        {"Proudly made by Nayan Patel and contributors."}
-      </span>
+      <span>{'Proudly made by Nayan Patel and contributors.'}</span>
     </Text>
     <Stack mt={4} direction='row' spacing='12px' justify='center'>
       {links.map((link) => (
