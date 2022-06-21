@@ -2,9 +2,9 @@
 
 import { Icon, Link, Stack, Text, VStack } from '@chakra-ui/react'
 import React from 'react'
+import { FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa'
 import { IoLogoGithub } from 'react-icons/io'
 import { MdEmail } from 'react-icons/md'
-import { FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa'
 import { VercelCallout } from './vercel-callout'
 
 type FooterLinkProps = {
