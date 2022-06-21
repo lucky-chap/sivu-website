@@ -17,25 +17,29 @@ import {
 } from './framework-svg'
 
 const FrameworkLink = (props) => {
-  const { accentColor, children, name } = props
+  const { accentColor, children, name, href } = props
   return (
-      <ChakraLink textDecoration='none' _hover={{ textDecoration: 'none' }}>
-        <Box boxShadow='md' bg='white' borderRadius='xl' pt='4'>
-          {children}
+    <ChakraLink
+      textDecoration='none'
+      _hover={{ textDecoration: 'none' }}
+      href={href}
+    >
+      <Box boxShadow='md' bg='white' borderRadius='xl' pt='4'>
+        {children}
 
-          <Center
-            bg={accentColor}
-            borderBottomStartRadius='lg'
-            borderBottomEndRadius='lg'
-            height='30px'
-            mt='4'
-          >
-            <Text color='white' fontSize='sm' fontWeight='bold'>
-              {name}
-            </Text>
-          </Center>
-        </Box>
-      </ChakraLink>
+        <Center
+          bg={accentColor}
+          borderBottomStartRadius='lg'
+          borderBottomEndRadius='lg'
+          height='30px'
+          mt='4'
+        >
+          <Text color='white' fontSize='sm' fontWeight='bold'>
+            {name}
+          </Text>
+        </Center>
+      </Box>
+    </ChakraLink>
   )
 }
 
@@ -45,6 +49,7 @@ export const FrameworkLinks = () => {
       <FrameworkLink
         accentColor='black'
         name='Vercel'
+        href='https://vercel.com/'
       >
         <VercelSVG style={{ margin: 'auto' }} />
       </FrameworkLink>
@@ -52,6 +57,7 @@ export const FrameworkLinks = () => {
       <FrameworkLink
         accentColor='#127597'
         name='Netlify'
+        href='https://www.netlify.com/'
       >
         <NetlifySvg style={{ margin: 'auto' }} />
       </FrameworkLink>
@@ -59,6 +65,7 @@ export const FrameworkLinks = () => {
       <FrameworkLink
         accentColor='#121212'
         name='Koyeb'
+        href='https://www.koyeb.com/'
       >
         <KoyebSVG style={{ margin: 'auto' }} />
       </FrameworkLink>
@@ -66,14 +73,15 @@ export const FrameworkLinks = () => {
       <FrameworkLink
         accentColor='#0F5095'
         name='Azure'
+        href='https://azure.microsoft.com/'
       >
         <AzureSVG style={{ margin: 'auto' }} />
       </FrameworkLink>
 
-
-        <FrameworkLink
+      <FrameworkLink
         accentColor='#0259F3'
         name='Cleavr'
+        href='https://cleavr.io/'
       >
         <CleavrSVG style={{ margin: 'auto' }} />
       </FrameworkLink>
