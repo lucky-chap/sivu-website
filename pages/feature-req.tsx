@@ -11,14 +11,14 @@ const featurereq = () => {
   return (
     <>
       <SEO
-        title={"Feature Reqeuests"}
-        description={"Sivu feature requests page"}
+        title={'Feature Reqeuests'}
+        description={'Sivu feature requests page'}
       />
       <AdBanner />
       <Header />
       <Box w='100%' pt={10} p={5}>
-      <FeedBack />
-        </Box>
+        <FeedBack />
+      </Box>
     </>
   )
 }

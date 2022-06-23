@@ -46,8 +46,7 @@ function HeaderContent() {
           <NextLink href='/' passHref>
             <chakra.a display='block' aria-label='Sivu, Back to homepage'>
               <Logo />
-              <Box minW='3rem' display={{ base: 'block', md: 'none' }}>
-              </Box>
+              <Box minW='3rem' display={{ base: 'block', md: 'none' }}></Box>
             </chakra.a>
           </NextLink>
         </Flex>
